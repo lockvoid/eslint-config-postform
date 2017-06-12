@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-postform",
+  "description": "An eslint config we use for React-based applications in Postform",
+  "homepage": "https://postform.io",
+  "version": "0.2.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postform/eslint-config-postform.git"
+  },
+  "scripts": {
+    "lint:js": "eslint src",
+    "lint:js:fix": "yarn run lint:js -- --fix"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^15.0.0",
+    "eslint-config-postform-base": "^0.1.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.13.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  }
+}
